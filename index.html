@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vdb</title>
+    <script type="module" src="@vdb/index.js"></script>
+</head>
+<body>
+    <script type="module">
+
+        import WebVDB from "./@vdb/index.js";
+
+        const count = new WebVDB("count");
+
+        /* 
+        count.setTable("visit"); // visitという名前のテーブルを作成
+
+        count.setCol("visit" , "counter"); // counterという名前のカラムを作成
+
+        count.set("visit" , "counter", 0); // counterカラムの値を0に設定
+
+        count.getTable("visit"); // TableのObjを取得
+
+        count.getCol("visit" , "counter"); // counterカラムの値を取得
+
+        count.deleteTable("visit"); // visitテーブルを削除 
+
+        count.deleteCol("visit" , "counter"); // counterカラムを削除
+        */
+
+    </script>
+</body>
+</html>
